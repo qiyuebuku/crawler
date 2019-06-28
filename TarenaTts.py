@@ -425,7 +425,7 @@ class Tts_movie(object):
 
 
 if __name__ == "__main__":
-    tts = Tts_movie('web1812n_pm@tedu.cn','tMooc2018TTS',process_count = 8,thread_count = 64,base_dir=r"E:\达内视频")
+    tts = Tts_movie('账号','密码',process_count = 8,thread_count = 64,base_dir=r"E:\达内视频")
     tts.start()
 # tts.test_download('http://videotts.it211.com.cn/D_VIP_TSD_N_FUNCTIONPROJECT_DAY05_11/D_VIP_TSD_N_FUNCTIONPROJECT_DAY05_11.m3u8')
 
