@@ -409,7 +409,7 @@ if __name__ == '__main__':
     video_info = {'title':'test_sesss23432','m3u8_url':mru8_url}
     dir_path = r"C:\Users\11946\Desktop\爬虫\download\test"
     log_path = r"C:\Users\11946\Desktop\爬虫\download\test\test1\log.json"
-    tts = Tts_movie('1194681498@qq.com','ruan19980418')
+    tts = Tts_movie('账号','密码')
     sess = tts.get_sess()
     data = {'video_info':video_info,'dir_path':dir_path}
     download = Downloader(data,sess,thread_count=64,base_dir=dir_path,log_path=log_path)
